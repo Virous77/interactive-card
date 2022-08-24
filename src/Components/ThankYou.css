@@ -1,0 +1,38 @@
+.complete {
+  background-color: white;
+  padding: 4rem 7rem;
+  text-align: center;
+  margin-bottom: -20rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.comp-title {
+  margin-top: 1rem;
+}
+
+.continue {
+  padding: 8px 5rem;
+  margin-top: 2rem;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+}
+
+.active {
+  display: none;
+}
+
+@media (max-width: 822px) {
+  .complete {
+    padding: 2rem 14rem;
+    margin-left: -35px;
+  }
+}
+
+@media (max-width: 667px) {
+  .complete {
+    padding: 2rem 5.3rem;
+    margin-left: -35px;
+  }
+}
